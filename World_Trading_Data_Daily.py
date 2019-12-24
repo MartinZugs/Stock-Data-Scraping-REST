@@ -18,7 +18,7 @@ sql = "INSERT INTO historical_daily_stock_data (ticker_symbol, date, open_value,
 tickers = ["SBUX", "AAPL", "NXPI", "FB", "SFIX", "JNJ", "BRK.A", "BRK.B", "CNC", "SFM"]
 
 # Test Case
-# response = requests.get("https://api.worldtradingdata.com/api/v1/history?symbol=VTSAX&sort=newest&api_token=eTPYpHBAmNry2fUVo6fL8uCV5peWMwcmgMEpd0aGKQCxkyDYhfWpPwadOuXk").json()
+# response = requests.get("https://api.worldtradingdata.com/api/v1/history?symbol=VTSAX&sort=newest&api_token=REDACTED").json()
 # print(response)
 
 try:
